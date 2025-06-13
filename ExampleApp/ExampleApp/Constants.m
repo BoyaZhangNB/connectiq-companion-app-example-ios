@@ -7,5 +7,5 @@
 
 #import "Constants.h"
 
-NSString * const ReturnURLScheme = @"exapp-123456";
+NSString * const ReturnURLScheme = @"myapp";
 NSString * const ReturnURLHost = @"connect.garmin.com/devices-list";

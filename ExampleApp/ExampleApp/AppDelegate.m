@@ -23,9 +23,9 @@
     // method(such as self in this example). You can then bypass the alert dialog
     // or provide your own.
     // Using URL Scheme
-    //[[ConnectIQ sharedInstance] initializeWithUrlScheme:ReturnURLScheme uiOverrideDelegate:nil];
+    [[ConnectIQ sharedInstance] initializeWithUrlScheme:ReturnURLScheme uiOverrideDelegate:nil];
     // Using Universal links
-    [[ConnectIQ sharedInstance] initializeWithUniversalLinks:ReturnURLHost uiOverrideDelegate:nil];
+    //[[ConnectIQ sharedInstance] initializeWithUniversalLinks:ReturnURLHost uiOverrideDelegate:nil];
     [[DeviceManager sharedManager] restoreDevicesFromFileSystem];
 
     // Override point for customization after application launch.

@@ -61,6 +61,7 @@ NSString * const kDevicesFileName = @"devices";
 // --------------------------------------------------------------------------------
 
 - (BOOL)handleOpenURL:(NSURL *)url {
+    NSLog(@"Trying to redirect to app...");
     if ([url.scheme isEqualToString:ReturnURLScheme] || [url.scheme isEqualToString:@"https"]) {
         NSArray *devices = [[ConnectIQ sharedInstance] parseDeviceSelectionResponseFromURL:url];
         if (devices != nil) {

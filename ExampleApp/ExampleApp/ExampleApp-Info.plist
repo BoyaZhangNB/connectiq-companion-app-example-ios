@@ -24,13 +24,27 @@
 	<array>
 		<dict>
 			<key>CFBundleTypeRole</key>
-			<string>None</string>
+			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.garmin.ExampleApp</string>
+			<string>com.boyazhang.myapp</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>exapp-123456</string>
+				<string>myapp</string>
 			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.boyazhang.myapp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>myapp</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
